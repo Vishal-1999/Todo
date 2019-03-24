@@ -1,0 +1,35 @@
+#app{
+    max-width: 350px;
+    height: auto;
+    text-align: center;
+    margin: auto !important;
+    border: 10px solid #01a3a4;
+    overflow-y: auto;
+    border-radius: 200px;
+    height: 600px;
+}
+
+#tasks input[type='checkbox']:checked + label{
+    text-decoration-line: line-through;
+    color: rgba(0,0,0, 0.3);
+}
+
+ul label{
+    font-size: 1.3rem;
+    vertical-align: bottom;
+}
+
+li input[type=checkbox]{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border: 2px solid #b5c5dd;
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 500px){
+    h1{
+        color: red !important;
+        font-size: 1rem !important; 
+    }
+}
